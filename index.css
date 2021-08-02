@@ -1,0 +1,94 @@
+/** @format */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(187, 186, 184);
+  display: flex;
+  gap: 5%;
+  justify-content: center;
+  align-items: center;
+}
+.login {
+  height: 80%;
+  width: 45rem;
+  background-color: pink;
+}
+.register {
+  height: 80%;
+  width: 45rem;
+  background-color: pink;
+}
+.h1Rl {
+  font-size: 5rem;
+  text-align: center;
+  margin-top: 1%;
+}
+
+.formL {
+  display: grid;
+  font-size: 2rem;
+  margin-top: 15%;
+}
+.formL input {
+  display: grid;
+  height: 3rem;
+  width: 80%;
+  margin: auto;
+  margin-top: 0%;
+}
+
+.formL span {
+  display: grid;
+  height: 3rem;
+  width: 80%;
+  margin: auto;
+  margin-top: 5%;
+  text-align: center;
+}
+.lSubmit {
+  margin-top: 5%;
+  height: 5rem;
+  background-color: red;
+  border-radius: 15px;
+  color: white;
+  font-size: 3rem;
+  cursor: pointer;
+}
+.lSubmit {
+  margin-top: 5% !important;
+  height: 5rem !important;
+  background-color: red;
+  border-radius: 15px;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.formR {
+  display: grid;
+  font-size: 2rem;
+  margin-top: 2%;
+}
+
+.formR input {
+  display: grid;
+  height: 3rem;
+  width: 80%;
+  margin: auto;
+  margin-top: 0%;
+}
+.formR span {
+  display: grid;
+  height: 3rem;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}

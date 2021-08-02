@@ -1,0 +1,35 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Google</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="login">
+        <h1 class="h1Rl">Login</h1>
+        <form class="formL" onsubmit="login(event)">
+          <span>Username: </span><input type="text" id="lUsername" />
+          <span>Password:</span>
+          <input type="text" id="lPassword" />
+          <input class="lSubmit" type="submit" />
+        </form>
+      </div>
+      <div class="register">
+        <h1 class="h1Rl">Register</h1>
+        <form class="formR" onsubmit="register(event)">
+          <span>Name: </span><input type="text" id="name" /> <span>Email: </span
+          ><input type="text" id="email" /> <span>Password: </span>
+          <input type="text" id="password" /> <span>Username: </span
+          ><input type="text" id="username" /> <span>Mobile: </span
+          ><input type="text" id="mobile" /> <span>Description: </span
+          ><input type="text" id="description" />
+          <input class="lSubmit" type="submit" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="index.js"></script>
