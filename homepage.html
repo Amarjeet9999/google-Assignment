@@ -4,6 +4,75 @@
 <html lang="en">
   <head>
     <title>New Search Engine</title>
+    <link rel="stylesheet" href="homepage.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
   </head>
-  <body> </body>
+  <body>
+    <header>
+      <div class="logo">
+        <img
+          src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png"
+        />
+      </div>
+      <div class="searchBox">
+        <input
+          onkeypress="throttleFunction(event)"
+          type="text"
+          placeholder="Search"
+          id="search"
+        />
+        <div class="icon2">
+          <i class="material-icons">mic</i>
+        </div>
+        <div class="icon" onclick="throttleFunctionSearch()">
+          <i class="material-icons">search</i>
+        </div>
+      </div>
+
+      <div class="right-nav">
+        <div class="icon">
+          <i class="material-icons">settings</i>
+        </div>
+        <div class="icon">
+          <i class="material-icons">apps</i>
+        </div>
+        <div class="icon">
+          <i class="material-icons">account_circle</i>
+        </div>
+      </div>
+    </header>
+    <div class="mainMenu">
+      <div class="menuHeader">
+        <div class="iconMenu">
+          <i class="material-icons">search</i>
+          <span>All</span>
+        </div>
+        <div class="iconMenu">
+          <i class="material-icons">book</i>
+          <span>Books</span>
+        </div>
+        <div class="iconMenu">
+          <i class="material-icons">smart_display</i>
+          <span>Videoes</span>
+        </div>
+        <div class="iconMenu">
+          <i class="material-icons">images</i>
+          <span>Images</span>
+        </div>
+        <div class="iconMenu">
+          <i class="material-icons">article</i>
+          <span>News</span>
+        </div>
+        <div class="iconMenu">
+          <i class="material-icons">more_vert</i>
+          <span>More</span>
+        </div>
+      </div>
+    </div>
+    <div id="container" class="container"> </div>
+  </body>
 </html>
+<script src="homepage.js"></script>

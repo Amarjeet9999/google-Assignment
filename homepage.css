@@ -1,0 +1,144 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+header {
+  margin: 1%;
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img {
+  height: 3.5rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.searchBox {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  margin-right: 25%;
+  position: relative;
+  justify-content: center;
+}
+.searchBox input {
+  height: 6rem;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 5rem;
+  padding: 0 0rem 0 3rem;
+  font-size: 2rem;
+  background-color: #ffffff;
+  color: rgb(255, 255, 255);
+  box-shadow: 0.1px 0.1px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+.searchBox .icon {
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #105cff;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #ffffff;
+  margin-top: 1.5rem;
+  margin-right: 1.5rem;
+  margin-right: 8%;
+}
+.icon2 {
+  height: 2rem;
+  width: 3rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 1.7rem;
+  margin-right: 1.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #105cff;
+}
+.right-nav {
+  display: flex;
+
+  gap: 15% !important;
+  margin-right: 2%;
+  justify-content: center;
+}
+
+.right-nav i {
+  height: 5rem;
+  width: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.mainMenu {
+  border-bottom: 0.5px solid rgb(202, 202, 202);
+}
+.menuHeader {
+  margin-left: 14%;
+  display: flex;
+  gap: 2%;
+  align-items: center;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+.iconMenu {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.iconMenu i {
+  color: rgb(180, 180, 180);
+}
+.iconMenu span {
+  color: rgb(0, 0, 0) !important;
+}
+.menuHeader span {
+  font-size: 15px;
+  margin-left: 5%;
+}
+.container {
+  height: 800px;
+  width: 60%;
+  margin-left: 12%;
+}
+.searchItems {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  margin-top: 5% !important;
+  width: 100%;
+  margin: auto;
+}
+.searchItems a {
+  font-size: 1.5rem;
+  opacity: 0.8;
+}
+.searchItems p {
+  font-size: 2.5rem;
+  color: #0748d4;
+}
